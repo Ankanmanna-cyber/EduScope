@@ -1,0 +1,10 @@
+{
+  "center_min": 0.35,
+  "center_max": 0.65,
+  "high_attention_score": 80,
+  "medium_attention_score": 50,
+  "low_attention_score": 25,
+  "blink_rate_normal": 15,
+  "head_pose_tolerance_degrees": 20,
+  "frames_before_alert": 5
+}

@@ -1,0 +1,13 @@
+# ai-engine/.gitignore
+
+# Trained model files (too large for git — use git-lfs or S3)
+models/emotion_model/emotion_model.h5
+models/emotion_model/fer2013.csv
+
+# Personal calibration profiles (contain user data)
+models/attention_model/profiles/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
