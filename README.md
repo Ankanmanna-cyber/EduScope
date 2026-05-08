@@ -22,7 +22,7 @@ To set up the project locally, first clone the repository from GitHub and move i
 git clone https://github.com/your-username/eduscope.git
 cd eduscope
 
-🖥️ Backend Setup
+ #1 Backend Setup
 For the backend setup, navigate to the backend folder, install all required Node.js dependencies, and start the Express server. The backend service runs on port 5000 and handles API requests, authentication, and database operations.
 cd backend
 npm install
@@ -30,21 +30,21 @@ node server.js
 
 Backend URL: http://localhost:5000
 
-🌐 Frontend Setup
+#2 Frontend Setup
 For the frontend setup, navigate to the frontend folder, install the required packages, and start the React development server. The frontend dashboard runs on port 5173 and provides the user interface for monitoring classroom engagement and analytics.
 cd frontend
 npm install
 npm run dev
 Frontend URL: http://localhost:5173
 
-🧠 AI Engine Setup
+#3 AI Engine Setup
 The AI engine is developed using Python and requires a virtual environment for dependency management. After creating and activating the virtual environment, install TensorFlow, DeepFace, Mediapipe, OpenCV, and Flask libraries. Once the dependencies are installed, run the AI service to start real-time engagement and emotion analysis.
 
-🔗 API Endpoints
+#4 API Endpoints
 EduScope provides REST API endpoints for user authentication and AI-based classroom analysis. The /run-ai endpoint is used to trigger AI analysis, while authentication routes manage user login and registration. Engagement data can also be fetched using the latest engagement API endpoint.
 
-🎯 Future Improvements
+#5 Future Improvements
 Future versions of EduScope may include advanced eye-tracking systems, voice analysis, cloud deployment, multi-classroom support, mobile applications, and more detailed AI-powered analytics to improve classroom intelligence and educational insights.
 
-👨‍💻 Team
+#6 Team
 EduScope is developed collaboratively by frontend developers, backend developers, AI engineers, and database engineers working together to build an intelligent classroom engagement platform.
